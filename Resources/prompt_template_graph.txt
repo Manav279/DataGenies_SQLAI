@@ -1,0 +1,21 @@
+### Task
+Generate a SQL query to answer [QUESTION]{}[/QUESTION]
+
+### Instructions
+- The query's result table will be used for plotting a graph/chart, so make sure only 2 columns are returned.
+- Apply necessary ORDER BY and aggregate functions
+- If you cannot answer the question with the available database schema, return 'I do not know'
+- If you cannot return only 2 columns or order the tbales properly, return 'Cannot represent given query in graph'
+- This is schema for SQL Server, return sql queries for SQL Server
+- Do not return repeat columns when using join
+
+### Database Schema
+The query will run on a database with the following schema:
+{}
+
+Probable Joins:
+{}
+
+### Answer
+Given the database schema, here is the SQL query that answers [QUESTION]{}[/QUESTION]
+[SQL]

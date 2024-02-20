@@ -1,0 +1,19 @@
+### Task
+Generate a SQL query to answer [QUESTION]{}[/QUESTION]
+
+### Instructions
+- If you cannot answer the question with the available database schema, return 'I do not know'
+- This is schema for SQL Server, return sql queries for SQL Server
+- Use * operator when returning all columns of a table
+- Do not return repeat columns when using join
+- Always Add TOP 25 after SELECT in query
+### Database Schema
+The query will run on a database with the following schema:
+{}
+
+Probable Joins:
+{}
+
+### Answer
+Given the database schema, here is the SQL query that answers [QUESTION]{}[/QUESTION]
+[SQL]
